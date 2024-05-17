@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #121212;
+    color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2em; /* Aumenta el tamaño del título */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #131313;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hacer la sombra más visible */
+}
+
+.group {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Un ligero contraste dentro de los grupos */
+    border-radius: 8px;
+    border-left: 5px solid #007bff; /* Añade un borde lateral para destacar */
+}
+
+.group h2 {
+    margin-top: 0;
+    color: #7e7e7e; /* Color brillante para los títulos de los grupos */
+}
+
+.group p {
+    margin-top: 0;
+}
+
+a {
+    color: #1E90FF; /* Color brillante para los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el mouse para mejorar la interactividad */
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,78 @@
+/* Reset básico y estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.social-media-list {
+    list-style: none;
+}
+
+.social-media-list li {
+    margin: 20px 0;
+}
+
+.social-media-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Estilos específicos para cada red social */
+#ig {
+    background-color: #E4405F;
+}
+
+#tw {
+    background-color: #1DA1F2;
+}
+
+#yt {
+    background-color: #FF0000;
+}
+
+.social-media-list li a:hover {
+    transform: scale(1.1);
+}
+
+/* Añadiendo iconos con Font Awesome */
+.social-media-list li a:before {
+    font-family: "Font Awesome 5 Free"; /* Asegúrate de incluir Font Awesome en tu HTML */
+    margin-right: 10px;
+}
+
+#ig:before {
+    content: "\f16d"; /* Icono de Instagram */
+}
+
+#tw:before {
+    content: "\f099"; /* Icono de Twitter */
+}
+
+#yt:before {
+    content: "\f167"; /* Icono de YouTube */
+}
+
+@media (max-width: 768px) {
+    .social-media-list li {
+        display: block;
+    }
+
+    .social-media-list li a {
+        font-size: 20px; /* Ajusta el tamaño en dispositivos más pequeños */
+    }
+}

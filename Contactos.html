@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="contactoss.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <title>Contactos</title>
+</head>
+<div class="head">
+
+    <div class="logo">
+        <a href="https://www.upslp.edu.mx"><img
+                src="https://www.upslp.edu.mx/upslp/wp-content/themes/icemagtheme/images/demo/icemaglogo.png"
+                alt="UPSLP"></a>
+    </div>
+
+    <div class="menu-icon" onclick="toggleNavbar()">
+        <img src="img/menu.png" alt="Icono de menú" style="width: 30px;">
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="informacion.html">Informacion</a>
+        <a href="impacto.html">Impacto</a>
+        <a href="situacionActual.html">Situacion actual</a>
+        <a href="vision.html">Vision a futuro</a>
+        <a href="videos.html">Videos</a>
+        <a href="interaccion.html">Interacion</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="ayuda.html">Ayuda</a>
+    </nav>
+</div>
+<br><br><br><br>
+<div id="contenedor">
+    <div id="cont">
+
+
+        <form action="cuestionarios.php" method="post">
+            <label for="nombre"> Escribe tu nombre:
+            </label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+            <label for="prob"> Escribe el problema o situacion por la que nos contactas:</label>
+            <input type="text" name="prob" id="prob">
+            <br><br>
+            <label for="email"> Escribe tu e-mail(para contactarte):</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+            <label for="numero"> Escribe tu numero de telefono:
+            </label>
+            <input type="number" name="numero" id="numero">
+            <br><br>
+            <input type="submit" id="submit" name="submit"">
+ </form>
+ </body>
+</html>
